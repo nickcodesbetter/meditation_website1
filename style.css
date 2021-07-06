@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .center {
+    max-width: 900px;
+  
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Remove defaults from navigation */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 75px;
+    color: rgb(196, 147, 22);
+    font-family: cursive;
+   
+}
+  
+  /* Navigation styles */
+  .nav-list ul {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    align-items: center;
+  }
+  
+  .nav-list a,
+  .nav-list a:visited,
+  .logo-text a,
+  .logo-text a:visited
+   {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  
+  .nav-list a:hover,
+  .logo-text a:hover
+   {
+    /* text-decoration: underline; */
+    color: rgba(255, 217, 0, 0.92);
+  }
+
+  .nav-text {
+    /* border-left: 2px solid goldenrod;
+    border-right: 2px solid goldenrod; */
+    text-align: center;
+    padding-top: 0px;
+    font-size: 1.4rem;
+    opacity: 1;
+  }
+
+.header {
+    height: 75px;
+    
+    background-color:rgb(89, 1, 1);
+    background-color:rgb(40, 0, 0);
+}
+
+.box {
+    border: 2px dotted blue;
+}
+
+.logo-text {
+    width: 40px;
+    font-family: cursive;
+    line-height: 1;
+    font-size: 0.8rem;
+    padding: 10px;
+    color: rgba(255, 217, 0, 0.92);
+}
+
+/* main styles */
+
+main {
+    height: 100vh;
+}
+
+.main-name {
+    background-color: darkred;
+    background-color:rgb(62, 1, 1);
+    height: 100%;
+    font-size: 10rem;
+    line-height: 1;
+    text-align: center;
+    font-family: cursive;
+    color: rgba(103, 34, 40, 0.92);
+
+}
+
+/* CSS Grid Styles */
+
+.two-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+/* .three-row-grid {
+    display: grid;
+    grid-template-rows: 75px 100px 200px;
+} */
+
+/* footer styles */
+
+footer li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+.footer {
+    background-color: rgb(40, 0, 0);
+    height: auto;
+    align-self: center;
+    text-align: center;
+    color: rgb(196, 147, 22);
+  
+}
+
+.footer-icon {
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 5px;
+    color: rgba(164, 143, 145, 0.92);
+    /* support - This was working before */
+    align-self: center; 
+    
+}
+
+/* .footer .footer-icon-colour {
+    color: rgba(164, 143, 145, 0.92);
+
+} */
+
+.footer-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 1.4rem;
+    opacity: 1;
+    height: 100px;
+}
+
