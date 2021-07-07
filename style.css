@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-  }
-  
   /* Reset styles */
 * {
     box-sizing: border-box;
@@ -21,6 +17,16 @@ html {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
+.full-height {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+  /* body {
+
+  } */
   
   /* Remove defaults from navigation */
   nav ul {
@@ -30,7 +36,6 @@ html {
     height: 75px;
     color: rgb(196, 147, 22);
     font-family: cursive;
-   
 }
   
   /* Navigation styles */
@@ -90,20 +95,37 @@ html {
 /* main styles */
 
 main {
-    height: 100vh;
+    /* height: ; */
+    background-color:rgb(62, 1, 1);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+
+.main :hover {
+    color: rgb(191, 140, 10);
+    color: rgb(120, 1, 1);
+    transition: color 2s;
+}
+
 
 .main-name {
     background-color: darkred;
     background-color:rgb(62, 1, 1);
-    height: 100%;
+    /* height: 100%; */
     font-size: 10rem;
     line-height: 1;
     text-align: center;
     font-family: cursive;
     color: rgba(103, 34, 40, 0.92);
-
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 /* CSS Grid Styles */
 
@@ -125,7 +147,6 @@ footer li {
     padding: 0;
     display: grid;
     grid-auto-flow: column;
-    
 }
 
 .footer {
@@ -134,18 +155,27 @@ footer li {
     align-self: center;
     text-align: center;
     color: rgb(196, 147, 22);
-  
+    
 }
 
 .footer-icon {
     width: 40px;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 100%;
     padding: 5px;
     color: rgba(164, 143, 145, 0.92);
+    background-color: rgb(150, 83, 10);
     /* support - This was working before */
-    align-self: center; 
-    
+}
+
+.icon-center {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icon-colour {
+    color: goldenrod;
 }
 
 /* .footer .footer-icon-colour {
@@ -166,5 +196,6 @@ footer li {
     font-size: 1.4rem;
     opacity: 1;
     height: 100px;
+    
 }
 
