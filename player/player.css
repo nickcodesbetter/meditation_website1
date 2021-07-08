@@ -24,6 +24,12 @@ html {
     grid-template-rows: auto 1fr auto;
 }
 
+/* body styles */
+
+body {
+    background-color: rgb(196, 147, 22);
+}
+
   /* body {
 
   } */
@@ -96,10 +102,13 @@ html {
 
 main {
     /* height: ; */
-    background-color:rgb(62, 1, 1);
-    display: grid;
+    /* background-color:rgb(216, 198, 198); nice color*/
+    /* background-color: rgb(62, 1, 1); original*/
+    background-color:rgb(220, 174, 174);
+    /* display: grid;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    width: -webkit-fill-available;
     
 }
 
@@ -119,8 +128,7 @@ main {
     line-height: 1;
     text-align: center;
     font-family: cursive;
-    /* color: rgba(103, 34, 40, 0.92); */
-    color: rgb(254, 188, 46);
+    color: rgba(103, 34, 40, 0.92);
     display: grid;
     align-items: center;
     justify-content: center;
@@ -139,6 +147,16 @@ main {
     display: grid;
     grid-template-rows: 75px 100px 200px;
 } */
+
+.four-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.three-column-grid_expand-two {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
 
 /* footer styles */
 
@@ -200,3 +218,99 @@ footer li {
     
 }
 
+/* player styles */
+
+.meditation-title {
+    display: grid;
+    border: 2px solid goldenrod;
+    width: 100px;
+    color: rgb(252, 232, 180);
+    padding:5px;
+    
+
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    /* border: 2px solid white; */
+}
+
+.player-header {
+margin-top: 50px;
+margin-bottom:50px;
+}
+
+.details div {
+    text-align: center;
+}
+
+.teacher {
+    margin-top: 25px;
+    margin-bottom: 10px
+}
+
+.meditation {
+    margin-bottom: ;
+}
+
+.cover-image {
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+
+hr {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: grid;
+    justify-self: center;
+    height: 5px;
+    
+}
+
+.bar {
+    height: 10px;
+    border: 2px solid rgb(116, 32, 1);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: darkred;
+}
+
+.remaining {
+    background-color:goldenrod;
+}
+
+.five-column-grid {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    margin: 30px;
+}
+
+
+/* Utilities */
+
+.middle {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.teacher,
+.meditation,
+.font {
+    color: rgb(245, 227, 180);
+    font-family: cursive;
+    font-size: 1.5rem;
+
+}
