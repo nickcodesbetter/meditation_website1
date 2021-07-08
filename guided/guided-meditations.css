@@ -1,0 +1,331 @@
+  /* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .center {
+    max-width: 900px;
+  
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+.full-height {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+  /* body {
+
+  } */
+  
+  /* Remove defaults from navigation */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 75px;
+    color: rgb(196, 147, 22);
+    font-family: cursive;
+}
+  
+  /* Navigation styles */
+  .nav-list ul {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    align-items: center;
+  }
+  
+  .nav-list a,
+  .nav-list a:visited,
+  .logo-text a,
+  .logo-text a:visited
+   {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  
+  .nav-list a:hover,
+  .logo-text a:hover
+   {
+    /* text-decoration: underline; */
+    color: rgba(255, 217, 0, 0.92);
+  }
+
+  .nav-text {
+    /* border-left: 2px solid goldenrod;
+    border-right: 2px solid goldenrod; */
+    text-align: center;
+    padding-top: 0px;
+    font-size: 1.4rem;
+    opacity: 1;
+  }
+
+.header {
+    height: 75px;
+    
+    background-color:rgb(89, 1, 1);
+    background-color:rgb(40, 0, 0);
+}
+
+.box {
+    border: 2px dotted blue;
+}
+
+.logo-text {
+    width: 40px;
+    font-family: cursive;
+    line-height: 1;
+    font-size: 0.8rem;
+    padding: 10px;
+    color: rgba(255, 217, 0, 0.92);
+}
+
+/* main styles */
+
+main {
+    /* height: ; */
+    background-color:rgb(62, 1, 1);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.main :hover {
+    color: rgb(191, 140, 10);
+    color: rgb(120, 1, 1);
+    transition: color 2s;
+}
+
+
+.main-name {
+    background-color: darkred;
+    background-color:rgb(62, 1, 1);
+    /* height: 100%; */
+    font-size: 10rem;
+    line-height: 1;
+    text-align: center;
+    font-family: cursive;
+    color: rgba(103, 34, 40, 0.92);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* CSS Grid Styles */
+
+.two-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+/* .three-row-grid {
+    display: grid;
+    grid-template-rows: 75px 100px 200px;
+} */
+
+.four-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* footer styles */
+
+footer li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.footer {
+    background-color: rgb(40, 0, 0);
+    height: auto;
+    align-self: center;
+    text-align: center;
+    color: rgb(196, 147, 22);
+    
+}
+
+.footer-icon {
+    width: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    padding: 5px;
+    color: rgba(164, 143, 145, 0.92);
+    background-color: rgb(150, 83, 10);
+    /* support - This was working before */
+}
+
+.icon-center {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icon-colour {
+    color: goldenrod;
+}
+
+/* .footer .footer-icon-colour {
+    color: rgba(164, 143, 145, 0.92);
+
+} */
+
+.footer-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 1.4rem;
+    opacity: 1;
+    height: 100px;
+    
+}
+
+/* guided-main styles */
+
+main h2 {
+    text-align: center;
+    padding: 15px;
+    font-size: 3rem;
+    font-family: cursive;
+    color: rgba(255, 217, 0, 0.92);
+}
+
+
+main h3 {
+    padding: 15px;
+    padding-bottom: 8px;
+    padding-left: 3px;
+}
+
+main ul {
+    color: rgba(255, 217, 0, 0.92);
+    font-family: cursive;
+}
+
+.filters-searchbar  {
+    display: grid;
+    grid-auto-flow: column;
+    
+   
+}
+
+.filters-list  {
+    display: inline-flex;
+    list-style-type: none;
+    gap: 40px;    
+    padding-right: 40px;
+    padding-bottom: 445 0px;
+}
+
+/* .playlist  {
+    display: grid;
+    grid-auto-flow: column;
+    border: 2px dotted white;
+    
+} */
+
+.playlist-box {
+    display: grid;
+    width: 100px;
+    height: 80px;
+    border: 2px solid gold;
+    gap: 0px;
+    box-shadow: 5px 5px;
+    overflow: hidden;
+}
+
+.playlist-image-one {
+background-image: url(images/meditation4.jpeg);
+    background-position: center;
+    background-size: 100px 80px;
+}
+
+.playlist-image-two {
+    background-image: url(images/meditation3.jpeg);
+        background-position: center;
+        background-size: 100px 80px;
+    }
+
+.playlist-image-three {
+        background-image: url(images/meditation2.jpeg);
+            background-position: center;
+            background-size: 100px 80px;
+        }
+.playlist-image-four {
+    background-image: url(images/meditataion.jpeg);
+                background-position: center;
+                background-size: 100px 80px;
+            }
+.searchbar {
+    height: -webkit-fill-available;
+}
+
+.play-button {
+    display: grid;
+    align-items: center;
+    /* align-items: flex-end; - works with time stamp*/
+    justify-content: center;
+
+}
+
+.play-button-style {
+    width: 35px;
+    color: white;
+}
+
+.like-button-style {
+    width: 15px;
+    justify-self: end;
+    margin: 5px;
+    
+}
+
+main .timestamp {
+    text-align: end;
+    height: fit-content;
+    padding-right: 3px;
+    background-color: rgb(67, 1, 1);
+    color: white;
+    /* should I change align-self to align items? */
+    align-self: flex-end;
+    width: fit-content;
+    justify-self: end;
+    
+}
+
+/* .thumbnail {
+    width: 100px;
+} */
+
+.meditation-title {
+    display: grid;
+    border: 2px solid goldenrod;
+    width: 100px;
+    color: rgb(252, 232, 180);
+    padding:5px;
+    text-align: ;
+}
