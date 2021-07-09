@@ -104,11 +104,11 @@ main {
 }
 
 
-.main :hover {
+/* .main :hover {
     color: rgb(191, 140, 10);
     color: rgb(120, 1, 1);
     transition: color 2s;
-}
+} */
 
 
 .main-name {
