@@ -3,6 +3,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: rgb(171, 179, 225) !important;
+   font-family: cursive;
 }
 
 html {
@@ -78,7 +80,7 @@ html {
     height: 75px;
     
     background-color:rgb(89, 1, 1);
-    background-color:rgb(40, 0, 0);
+    background-color: rgb(244, 233, 213);
 }
 
 .box {
@@ -98,7 +100,7 @@ html {
 
 main {
     /* height: ; */
-    background-color:rgb(62, 1, 1);
+    background-color: rgb(243, 237, 227);
     display: grid;
     justify-content: center;
     align-items: center;
@@ -135,23 +137,27 @@ form.example input[type=text] {
     border: 1px solid grey;
     float: left;
     width: 80%;
-    background: rgb(94, 0, 0);
+    background-color: rgb(243, 237, 227);
+    border-radius: 5px 0px 0px 5px;
+
   }
   
   form.example button {
     float: left;
     width: 20%;
-    padding: 2.5px;
-    background: goldenrod;
+    padding: 4.5px;
+    color: rgb(171, 179, 225);
     color: white;
     font-size: 17px;
     border: 1px solid grey;
     border-left: none;
     cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+
   }
   
   form.example button:hover {
-    background: rgb(247, 177, 1);
+    background: rgb(123, 111, 176);
   }
   
   form.example::after {
@@ -190,12 +196,13 @@ footer li {
 }
 
 .footer {
-    background-color: rgb(40, 0, 0);
+    background-color: rgb(243, 237, 227);
     height: auto;
     align-self: center;
     text-align: center;
     color: rgb(196, 147, 22);
     /* margin-top: 40px; */
+    background-color: rgb(244, 233, 213);
 }
 
 .footer-icon {
@@ -204,7 +211,7 @@ footer li {
     border-radius: 100%;
     padding: 5px;
     color: rgba(164, 143, 145, 0.92);
-    background-color: rgb(150, 83, 10);
+    background-color: rgb(171, 179, 225) !important;
     /* support - This was working before */
 }
 
@@ -216,6 +223,7 @@ footer li {
 
 .footer-icon-colour {
     color: goldenrod;
+
 }
 
 /* .footer .footer-icon-colour {
@@ -245,6 +253,7 @@ footer li {
     width: 30px;
     margin: 0px;
     padding: 0px;
+    
 }
 
 main h2 {
@@ -274,8 +283,7 @@ main ul {
 .filters-searchbar  {
     display: grid;
     grid-auto-flow: column;
-    
-   
+
 }
 
 .filters-list  {
@@ -300,7 +308,10 @@ main ul {
     /* border: 2px solid rgb(0, 0, 0); */
     gap: 0px;
     /* box-shadow: 5px 0px ; */
+        border: 2px solid rgba(209, 217, 220, 0.571);
+
     overflow: hidden;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .playlist-image-one {
@@ -325,6 +336,99 @@ background-image: url(images/meditation4.jpeg);
                 background-position: center;
                 background-size: 200px 100px;
  }
+
+ .playlist-image-five {
+    background-image: url(images/download.jpeg);
+        background-position: center;
+        background-size: 200px 100px;
+    }
+    
+    .playlist-image-six {
+        background-image: url(images/download\ \(1\).jpeg);
+            background-position: center;
+            background-size: 200px 100px;
+        }
+    
+    .playlist-image-seven {
+            background-image: url(images/download\ \(2\).jpeg);
+                background-position: center;
+                background-size: 200px 100px;
+            }
+    .playlist-image-eight {
+        background-image: url(images/download\ \(3\).jpeg);
+                    background-position: center;
+                    background-size: 200px 100px;
+     }
+
+     .playlist-image-nine {
+        background-image: url(images/download\ \(4\).jpeg);
+            background-position: center;
+            background-size: 200px 100px;
+        }
+        
+        .playlist-image-ten {
+            background-image: url(images/download\ \(5\).jpeg);
+                background-position: center;
+                background-size: 200px 100px;
+            }
+        
+        .playlist-image-eleven {
+                background-image: url(images/fifteen.jpeg);
+                    background-position: center;
+                    background-size: 200px 100px;
+                }
+        .playlist-image-twelve {
+            background-image: url(images/fourteen.jpeg);
+                        background-position: center;
+                        background-size: 200px 100px;
+         }
+
+           
+    .playlist-image-thirteen {
+        background-image: url(images/seventeen.jpeg);
+            background-position: center;
+            background-size: 200px 100px;
+        }
+    
+    .playlist-image-fourteen {
+            background-image: url(images/sixteen.jpeg);
+                background-position: center;
+                background-size: 200px 100px;
+            }
+    .playlist-image-fifteen {
+        background-image: url(images/How-to-Use-a-Meditation-Bowl-to-Shift-Your-Consciousness.jpeg);
+                    background-position: center;
+                    background-size: 200px 100px;
+     }
+
+     .playlist-image-sixteen {
+        background-image: url(images/twenty.jpeg);
+            background-position: center;
+            background-size: 200px 100px;
+        }
+        
+        .playlist-image-seventeen {
+            background-image: url(images/images\ \(1\).jpeg);
+                background-position: center;
+                background-size: 200px 100px;
+            }
+        
+        .playlist-image-eighteen {
+                background-image: url(images/images\ \(2\).jpeg);
+                    background-position: center;
+                    background-size: 200px 100px;
+                }
+        .playlist-image-nineteen {
+            background-image: url(images/eighteen.jpeg);
+                        background-position: center;
+                        background-size: 200px 100px;
+         }
+
+         .playlist-image-twenty {
+            background-image: url(images/images\ \(1\)\ copy.jpeg);
+                        background-position: center;
+                        background-size: 200px 100px;
+         }
 
 .search-space {
     width: 215px;
@@ -358,8 +462,8 @@ main .timestamp {
     text-align: end;
     height: fit-content;
     padding-right: 3px;
-    background-color: rgb(67, 1, 1);
-    color: white;
+    background-color: rgba(142, 140, 141, 0);
+    color: rgb(249, 249, 249);
     /* should I change align-self to align items? */
     align-self: flex-end;
     width: fit-content;
@@ -373,7 +477,7 @@ main .timestamp {
 
 .meditation-title {
     display: grid;
-    border: 2px solid rgba(255, 232, 24, 0.571);
+    border: 2px solid rgba(209, 217, 220, 0.571);
     width: 200px;
     color: rgb(252, 232, 180);
     padding:5px;

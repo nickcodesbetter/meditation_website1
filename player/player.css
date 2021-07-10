@@ -3,6 +3,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* color: rgb(171, 179, 225) !important; */
+    /* background-color: rgb(243, 237, 227) !important; */
 }
 
 html {
@@ -40,7 +42,8 @@ body {
     margin: 0;
     padding: 0;
     height: 75px;
-    color: rgb(196, 147, 22);
+    color: rgb(171, 179, 225) !important;
+
     font-family: cursive;
 }
   
@@ -82,7 +85,8 @@ body {
     height: 75px;
     
     background-color:rgb(89, 1, 1);
-    background-color:rgb(40, 0, 0);
+    background-color: rgb(243, 237, 227); 
+    background-color: rgb(244, 233, 213);
 }
 
 .box {
@@ -95,7 +99,7 @@ body {
     line-height: 1;
     font-size: 0.8rem;
     padding: 10px;
-    color: rgba(255, 217, 0, 0.92);
+    color: rgb(171, 179, 225) !important;
 }
 
 /* main styles */
@@ -104,9 +108,9 @@ main {
     /* height: ; */
     /* background-color:rgb(216, 198, 198); nice color*/
     /* background-color: rgb(62, 1, 1); original*/
-    background-color:rgb(220, 174, 174);
-    /* display: grid;
-    justify-content: center;
+/* background-color: rgb(243, 237, 227)     /* display: grid; */
+background-color: rgb(243, 237, 227);     
+justify-content: center;
     align-items: center; */
     width: -webkit-fill-available;
     
@@ -122,7 +126,7 @@ main {
 
 .main-name {
     background-color: darkred;
-    background-color:rgb(62, 1, 1);
+    background-color: rgb(243, 237, 227);     
     /* height: 100%; */
     font-size: 10rem;
     line-height: 1;
@@ -166,14 +170,16 @@ footer li {
     padding: 0;
     display: grid;
     grid-auto-flow: column;
+    
 }
 
 .footer {
-    background-color: rgb(40, 0, 0);
+    background-color: rgb(243, 237, 227);     
     height: auto;
     align-self: center;
     text-align: center;
-    color: rgb(196, 147, 22);
+    color: rgb(171, 179, 225);
+    background-color: rgb(244, 233, 213);
     
 }
 
@@ -182,8 +188,8 @@ footer li {
     border: 2px solid rgb(0, 0, 0);
     border-radius: 100%;
     padding: 5px;
-    color: rgba(164, 143, 145, 0.92);
-    background-color: rgb(150, 83, 10);
+    color: rgb(171, 179, 225);
+background-color: rgb(243, 237, 227);     
     /* support - This was working before */
 }
 
@@ -224,7 +230,7 @@ footer li {
     display: grid;
     border: 2px solid goldenrod;
     width: 100px;
-    color: rgb(252, 232, 180);
+    color: rgb(171, 179, 225);
     padding:5px;
     
 
@@ -273,7 +279,7 @@ hr {
 
 .bar {
     height: 10px;
-    border: 2px solid rgb(116, 32, 1);
+    border: 2px solid rgb(179, 120, 120);
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin-top: 30px;
@@ -282,11 +288,10 @@ hr {
 }
 
 .progress {
-    background-color: darkred;
-}
+    background-color:goldenrod;}
 
 .remaining {
-    background-color:goldenrod;
+    background-color:rgb(250, 233, 178);
 }
 
 .five-column-grid {
@@ -309,8 +314,14 @@ hr {
 .teacher,
 .meditation,
 .font {
-    color: rgb(245, 227, 180);
+    color: rgb(171, 179, 225);
     font-family: cursive;
     font-size: 1.5rem;
-
 }
+
+
+
+#play-pause-button{
+    font-size: 50px;
+    cursor: pointer;
+  }
